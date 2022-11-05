@@ -1,0 +1,27 @@
+﻿@model IEnumerable<AspTutotialMVC.Models.Product>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List</h1>
+
+<ul>
+    @foreach (var product in Model)
+    {
+        <li>@product.Id - @product.Name - @product.Description - @product.Category</li>
+    }
+</ul>
+
+<h2>Warunek - Samochody</h2>
+
+<ul>
+    @foreach (var product in Model)
+    {
+        if (product.Category == "Samochód")
+        {
+            <li>@product.Id - @product.Name - @product.Description - @product.Category</li>
+        }
+    }
+</ul>
+

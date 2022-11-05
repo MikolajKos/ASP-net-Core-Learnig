@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspTutotialMVC", "AspTutotialMVC\AspTutotialMVC.csproj", "{05287B53-2F71-40CA-8B05-4115E0538317}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05287B53-2F71-40CA-8B05-4115E0538317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05287B53-2F71-40CA-8B05-4115E0538317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05287B53-2F71-40CA-8B05-4115E0538317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05287B53-2F71-40CA-8B05-4115E0538317}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC165505-DE2C-475B-9C9B-65E25F3E6B2F}
+	EndGlobalSection
+EndGlobal
